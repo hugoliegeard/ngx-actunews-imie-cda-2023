@@ -1,10 +1,10 @@
-export interface User {
+export class User {
   "@id" ?: string;
   id: number;
   email: string;
-  roles: any;
+  roles: any = ['ROLE_USER'];
   password: string;
   DisplayName: string;
-  isVerified: boolean;
+  isVerified: boolean = true;
 }
 

@@ -18,6 +18,8 @@ import {InfiniteScrollModule} from "ngx-infinite-scroll";
 import {RouterModule} from "@angular/router";
 import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
 import {NgxSkeletonLoaderModule} from "ngx-skeleton-loader";
+import { RegisterComponent } from './modules/pages/register/register.component';
+import { LoginComponent } from './modules/pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import {NgxSkeletonLoaderModule} from "ngx-skeleton-loader";
     SidebarComponent,
     CategoriesComponent,
     ArticleComponent,
-    Error404Component
+    Error404Component,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

@@ -4,12 +4,22 @@ import {HomeComponent} from "./modules/pages/home/home.component";
 import {CategoriesComponent} from "./modules/pages/categories/categories.component";
 import {ArticleComponent} from "./modules/pages/article/article.component";
 import {Error404Component} from "./modules/pages/error404/error404.component";
+import {RegisterComponent} from "./modules/pages/register/register.component";
+import {LoginComponent} from "./modules/pages/login/login.component";
 
 const routes: Routes = [
   {
     // http://localhost:4200
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'inscription',
+    component: RegisterComponent
+  },
+  {
+    path: 'connexion',
+    component: LoginComponent
   },
   {
     // http://localhost:4200/politique
